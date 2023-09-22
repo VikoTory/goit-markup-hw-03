@@ -306,12 +306,13 @@ img {
 /** ============= FOOTER ============= */
 
 .footer {
+  background-color: #2e2f42;
 }
 
 .footer-container {
   align-items: self-start;
-  padding: 101.5px 0 100px 156px;
-  background-color: #2e2f42;
+  padding: 101.5px 0 100px 0;
+  
 }
 
 .footer-link {
