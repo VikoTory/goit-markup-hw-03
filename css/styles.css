@@ -35,7 +35,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15;
-  outline: 2px solid red;
 }
 
 .header-container {
@@ -64,33 +63,25 @@ img {
 
 .header-logo-item {
   color: #2e2f42;
-  
 }
 
 .header-navigation {
   display: flex;
   gap: 76px;
-
 }
-  
 
 .header-menu {
   display: flex;
   gap: 40px;
- 
 }
-  
+
 .header-menu-item {
-  
 }
 
 .header-address-list {
   display: flex;
   gap: 40px;
-  
 }
-
-
 
 .header-menu-link {
   color: #2e2f42;
@@ -111,7 +102,6 @@ img {
 }
 .header-address-item {
   display: flex;
-  
 }
 .header-address-link {
   color: #434455;
@@ -127,8 +117,6 @@ img {
 .header-address-link:focus {
   color: #404bbf;
 }
-
-
 
 /** =============================== */
 
@@ -220,7 +208,6 @@ img {
   background-color: #ffffff;
   background-color: #f4f4fd;
   padding-top: 120px;
-
 }
 
 .team-title {
