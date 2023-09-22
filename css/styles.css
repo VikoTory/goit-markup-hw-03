@@ -38,6 +38,11 @@ img {
   outline: 2px solid red;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -59,15 +64,34 @@ img {
 
 .header-logo-item {
   color: #2e2f42;
+  
 }
 
 .header-navigation {
+  display: flex;
+  gap: 76px;
+
 }
+  
 
 .header-menu {
+  display: flex;
+  gap: 40px;
+ 
 }
+  
 .header-menu-item {
+  
 }
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
+  
+}
+
+
+
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -86,6 +110,8 @@ img {
   font-style: normal;
 }
 .header-address-item {
+  display: flex;
+  
 }
 .header-address-link {
   color: #434455;
@@ -101,6 +127,8 @@ img {
 .header-address-link:focus {
   color: #404bbf;
 }
+
+
 
 /** =============================== */
 
@@ -147,18 +175,26 @@ img {
 
 /** ============= ADVANTAGES ============= */
 .advantages {
+  padding: 120px 0;
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
+  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .advantages-list {
+  display: flex;
+  gap: 24px;
 }
 .advantages-item {
+  width: calc((100% - 72px) / 4);
 }
 .advantages-subtitle {
   color: #2e2f42;
@@ -184,6 +220,7 @@ img {
   background-color: #ffffff;
   background-color: #f4f4fd;
   padding-top: 120px;
+
 }
 
 .team-title {
@@ -195,9 +232,12 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-bottom: 72px;
+  margin: 0 auto;
 }
 
 .team-title-list {
+  display: flex;
+  gap: 24px;
 }
 .team-title-item {
   background-color: #ffffff;
@@ -220,6 +260,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 32px 0;
 }
 
 /** =============================== */
@@ -232,6 +273,7 @@ img {
 .portfolio-img {
   margin-bottom: 32px;
 }
+
 .portfolio-subtitle {
   color: #2e2f42;
   text-align: center;
@@ -243,9 +285,17 @@ img {
   margin-bottom: 72px;
 }
 .portfolio-title-list {
+  letter-spacing: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
+
 .portfolio-title-item {
   background-color: #ffffff;
+  width: calc((100% - 2 * 24px) / 3);
 }
 .portfolio-title-chapter {
   color: #2e2f42;
@@ -270,6 +320,7 @@ img {
 }
 
 .footer-container {
+  align-items: self-start;
   padding: 101.5px 0 100px 156px;
   background-color: #2e2f42;
 }
